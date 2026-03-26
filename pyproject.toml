@@ -1,0 +1,12 @@
+[project]
+name = "irw-mixed-subj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chatlas>=0.15.2",
+    "dotenv>=0.9.9",
+    "pandas>=3.0.1",
+    "pydantic>=2.12.5",
+]
