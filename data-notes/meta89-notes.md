@@ -7,13 +7,6 @@
 
 - After processing, each respondent has at most one response per item, and the dataset contains only unique and valid observations.
 
-## Data Augmentation Notes
-
-- The output data is generated using a leave-one-item-out procedure at the person level.
-- For each person, one item response is held out at a time, and the remaining item responses are treated as observed data.
-- A prompt is constructed using the observed item-response pairs, along with the held-out item text.
-- The model is asked to predict the held-out response (0 or 1) based on the observed responses.
-- Each row in the output corresponds to one prediction task (i.e., one held-out item for one person).
 
 ### Output Columns (this may be included for general readme)
 
