@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 load_dotenv()
 
 
-DATA_PATH = Path("data/processed/meta89/person-specific-itemresp-long.csv")
+DATA_PATH = Path("data/processed/meta89-person-specific-itemresp.csv")
 OUT_DIR = Path("data/llm-out")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 GENERATED_PATH = OUT_DIR / "meta89_llm.csv"
